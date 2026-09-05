@@ -10,3 +10,10 @@ def mainus(a,b):
 class Animal:
     def __init__(self, name):
         self.name = name
+        
+        
+# Пример class Собаки
+class Dog(Animal):
+    def bark(self):
+        print("Woof!")
+
